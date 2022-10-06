@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+    margin: 0;
+}
+
+
+section {
+    background-color: #e0d2a9;
+   
+   
+
+}
+.hero {
+    background-color: #123f56;
+    height: 60vh;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+ 
+  
+}
+
+footer {
+   
+    background-color: #123f56;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+    padding: 80px
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    /*width: 200px;*/
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+  
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+img {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.hero-area {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 230px;
+    height: 55px;
+    border-top: 30px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: black;
+    color:aqua
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 220px;
+    width: 220px;
+    margin: 30px;
+}
+
+.sub-section {
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.sub-section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.headshot {
+    display: flex;
+   
+   
+    align-items: center;
+    
+}
+
+#headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 150px;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+    background-color: #123f56 ;
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 25px;
+    height: 300px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+}
