@@ -49,6 +49,7 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+    text-align: right;
 }
 
 li {
